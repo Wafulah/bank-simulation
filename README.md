@@ -95,8 +95,9 @@ src/
 - Validate user permissions before allowing sensitive operations like transfers and currency conversion.
 
 ### Scalability
-- Replace the in-memory H2 database with a robust database like PostgreSQL for production.
-- Use caching for frequently accessed data like exchange rates.
+- Ensure the application is optimized for PostgreSQL, leveraging its scalability features for handling large amounts of data in production.
+- Implement caching for frequently accessed data like exchange rates to reduce database load and improve response time.
+
 
 ## Example Workflow
 
