@@ -40,7 +40,7 @@ src/
 - **Spring Boot**: Core framework for the backend.
 - **Spring Security**: Handles authentication and authorization.
 - **Lombok**: Reduces boilerplate code with annotations like `@Getter` and `@RequiredArgsConstructor`.
-- **H2 Database**: In-memory database for development and testing.
+- **Postresql Database**: Postgresql database for development and testing.
 - **Spring Data JPA**: Simplifies database operations.
 - **Validation API**: Ensures data integrity through annotations like `@Valid`.
 - **Logback (SLF4J)**: Logging framework for structured logs.
@@ -93,6 +93,14 @@ src/
 
 ### Security Enhancements
 - Validate user permissions before allowing sensitive operations like transfers and currency conversion.
+
+### CI/CD Integration
+- Implement continuous integration and continuous deployment (CI/CD) pipelines to automate testing, building, and deployment processes.
+- Integrate tools like GitHub Actions, Jenkins, or CircleCI to ensure fast, consistent, and reliable releases across environments.
+
+### Dockerization
+- Dockerize the application to create consistent environments across development, staging, and production.
+- Use Docker Compose for setting up multi-container applications and services like PostgreSQL and Redis.
 
 ### Scalability
 - Ensure the application is optimized for PostgreSQL, leveraging its scalability features for handling large amounts of data in production.
