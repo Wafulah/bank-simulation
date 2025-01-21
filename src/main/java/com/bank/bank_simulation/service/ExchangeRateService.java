@@ -33,11 +33,7 @@ public class ExchangeRateService {
      */
     private final Set<String> CURRENCIES = Set.of(
         "USD",
-        "EUR",
-        "GBP",
-        "JPY",
-        "NGN",
-        "INR"
+        "KES"
     );
 
     /**
